@@ -1,0 +1,170 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+em{
+color:#F00;
+}
+.boldlist li{
+	list-style: none;
+}
+.suggestion{
+	position:relative;
+}
+.suggestion_result{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	padding: 10px;
+	border:1px solid #eee;
+	background: #fff;
+	z-index: 9;
+	display: none;
+}
+.click_list {
+  list-style: outside none none;
+  padding: 0;
+}
+.click_list > li:hover {
+  background: #cccccc none repeat scroll 0 0;
+  cursor: pointer;
+  padding: 3px;
+}
+.table_input input{
+	-moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   	border-radius: 3px;
+  	margin-bottom: 10px;
+  	padding: 2px 10px;
+   	height: auto;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   font-size: 13px;
+   border:1px solid #aaa;
+}
+.table_input td{
+	width:20%;
+}
+.select2-container .select2-choice,.select2-container-active .select2-choice, .select2-container-active .select2-choices {
+  border: none !important;
+}
+.select2-container {
+  padding: 0 !important;
+}
+/*.select2-container::after {
+  border: 1px solid #bbbbbb;
+  bottom: -1px;
+  content: "";
+  font-family: "fontawesome";
+  font-size: 25px;
+  padding: 2px 4px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}*/
+.input-group-addon {
+  padding: 4px 5px;
+}
+#result, #result2 {
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+.school_title {
+  color: #ffffff;
+  font-size: 46px;
+  padding: 0 !important;
+}
+.school_title img {
+  background: #ffffff none repeat scroll 0 0;
+  margin-top: -12px;
+  padding: 3px;
+  width: 40px;
+}
+.panel {
+  box-shadow: 0 0 10px #cccccc;
+}
+.form-control:focus {
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 2px #ff4444;
+}
+body.bgcolor {
+  background-image: url("../images/armyschool.jpg");
+  background-size: cover;
+}
+.login_home .dialog {
+  margin-top: 250px;
+}
+
+::selection {
+  background: #C10402;
+  color: #fff;
+}
+::-moz-selection {
+  background: #C10402;
+  color: #fff;
+}
+.mainwrapper.collapsed .nav {
+  margin-top: 0;
+}
+.table_input input {
+  max-width: 100%;
+}
+/*.table {
+  table-layout: fixed;
+}*/
+.table.table-bordered.table_input span + input {
+  max-width: 130px;
+}
+p.main_btn {
+  border: 1px solid #aaaaaa;
+  margin: 5px;
+  padding: 15px;
+}
+.clear{
+  clear: both;
+}
+
+/*MENU ON TOP*/
+.leftpanel .nav .active .children, .leftpanel .nav .parent-focus .children {
+  display: none;
+}
+.leftpanel .nav .children {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  display: none;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 220px;
+}
+.leftpanel .nav > li {
+  display: inline-block;
+}
+.leftpanel {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+.mainpanel {
+  margin-left: 0px;
+}
+.parent:hover .children {
+  display: block !important;
+}
+.mainwrapper::before {
+  border-right: 0 solid #e7e7e7;
+}
+.headerwrapper .header-left {
+  display: none;
+}
+.headerwrapper .header-right {
+  margin-left: 0;
+}
+.leftpanel .nav > li.parent::after {
+  color: #000;
+  right: 0;
+  top: 12px;
+}

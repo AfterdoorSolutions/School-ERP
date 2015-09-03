@@ -1,1 +1,0 @@
-<center><h2 style="color:red;">Direct access to this folder is disabled</h2></center>

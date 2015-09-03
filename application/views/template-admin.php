@@ -1,0 +1,14 @@
+<?php  
+    $this->load->view(TEMPLATE_ADMIN_NAME.'/include/header');
+    if($this->config->item('admin_type')=='library'){
+	    $this->load->view(TEMPLATE_ADMIN_NAME.'/include/menu-library');
+    }
+    elseif($this->config->item('admin_type')=='staff'){
+	    $this->load->view(TEMPLATE_ADMIN_NAME.'/include/menu-cce');
+    }
+    else{
+	    $this->load->view(TEMPLATE_ADMIN_NAME.'/include/menu');
+    }
+    $this->load->view($template);
+    $this->load->view(TEMPLATE_ADMIN_NAME.'/include/footer');    
+?>
