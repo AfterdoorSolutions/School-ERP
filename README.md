@@ -2,6 +2,6 @@
 Open Source School ERP with complete features
 
 ##### UPDATES #####
-Its still under development will be completed soon around Feb,22 2015
-Date has been changed to March, 22 2015 due to timing issues
+* Accouts module will be commited around 10th of july.
+* Student Admission,Library & Examination module is completed
 
